@@ -1,0 +1,124 @@
+/* Container styles */
+.container {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  .asterix {
+    color: #007bff;
+  }
+  
+  /* Button container styles */
+  .click {
+    margin-bottom: 10px;
+  }
+  
+  .click2 {
+    margin-top: 10px;
+  }
+  
+  /* Button styles */
+  .click button,
+  .click2 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .click button:hover,
+  .click2 button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Input styles */
+  .click input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    width: 100px;
+  }
+  
+  /* Span styles */
+  .angka {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Keyframe animation */
+  @keyframes scaleAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Add 5 button animation */
+  .click2 button {
+    animation: scaleAnimation 0.3s ease;
+  }
+  
+  /* CSS UserComponent */
+  /* Container styles */
+.Container1 {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .asterixx {
+    color: #007bff;
+  }
+  
+  /* User item styles */
+  .Container1 div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+  }
+  
+  .Container1 div:hover {
+    transform: scale(1.05);
+  }
+  
+  /* User details styles */
+  .nama {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .min {
+    color: #666;
+  }
+  
+  .email {
+    color: #333;
+  }
+  
